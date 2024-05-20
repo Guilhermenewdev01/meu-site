@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+*{  
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root{
+    --fonte-padrao: arial,verdana, helvetica, sans-serif;
+    --fonte-destaque:"bebas neue";
+
+
+
+    
+    }
+
+
+
+
+div{
+    display: inline-block;
+}
+
+
+
+
+.titulo{
+  
+    position: relative;
+    border-radius : 10px;
+    left: 170px;
+    bottom: 100px;
+    font-weight: bold;
+     font-size: 4.0em;
+     font-family: var(--fonte-destaque);
+    color: rgb(255, 255, 255);
+    
+    
+   
+    
+ }
+
+
+
+input{
+    position: relative;
+    bottom: 120px;
+    left: 450px;
+    font-weight: bolder;
+    font-size: 1.2em;
+    background: linear-gradient(to left, #ffffff, #ffffff );
+    color: black;
+    border-radius: 15px;
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+    padding: 15px;
+    outline: none;
+   
+    
+}
+
+.seta{
+    right: 1210px;
+    position: relative;
+}
+
+
+
+div{
+    
+    margin-top: 90px;
+    display: inline-block;
+}
+
+.aquaman{
+    padding-top: 0px;
+    border-style: groove;
+    transition: all 0.3s ease-in-out;
+    margin-left: 40px;
+    background: linear-gradient(to left, #a5750c, #c9b9ba);
+}
+
+
+.aqua{
+    
+    background: linear-gradient(to left, #E7000D, #31070a  );
+            border: none;
+            padding: 7px;
+            width: 57%;
+            border-radius: 20px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+}
+
+.aqua:hover{
+    transform: scale(1.1);
+}
+
+
+
+.wick {
+    padding-top: 0px;
+    border-style: groove;
+    transition: all 0.3s ease-in-out;
+    margin-right: 70px;
+    background: linear-gradient(to left, #97adb4,#1b576e);
+
+}
+
+
+.awick{
+
+    background: linear-gradient(to left, #E7000D, #31070a );
+            border: none;
+            padding: 6px;
+            width: 60%;
+            border-radius: 20px;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+}
+
+.awick:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.aranha{
+    color: white;
+    padding-top: 0px;
+    border-style: groove;
+    transition: all 0.3s ease-in-out;
+    margin-right: 30px;
+    background: linear-gradient(to left, #000000, #927d7f);
+}
+
+.homem{
+    font-weight: bold;
+   background: linear-gradient(to left, #E7000D, #31070a  );
+            border: none;
+            padding: 6px;
+            width: 60%;
+            border-radius: 20px;
+            color: white;
+            font-size: 30px;
+            
+}
+
+.homem:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.series{
+    display: block;
+}
+.witcher{
+    border: 
+    rgb(101, 174, 211);
+    border-style: groove;
+    padding-right: 15%;
+    padding: 0%;
+    background: linear-gradient(to right, #000000, #1a4350);
+}
+
+.botao{
+    color: white;
+    background: linear-gradient(to left, #31070a, #E7000D );
+    border: none;
+    border-radius: 20px;
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 1.4em;
+    font-size: 30px;
+    padding: 6px;
+    width: 60%;
+    display:block;
+}
+
+
+
+.botao2{
+       
+        color: white;
+        background: linear-gradient(to left, #31070a, #E7000D );
+        border: none;
+        border-radius: 20px;
+        margin-left: 20%;
+        font-weight: bold;
+        font-size: 1.4em;
+        font-size: 30px;
+        padding: 6px;
+        width: 60%;
+        display:block;
+    
+}
+
+
+
+.stranger{
+    border: red;
+    border-style: groove;
+    padding-left: 10%;
+    padding: 0%;
+   margin-left: 15%;
+   background: linear-gradient(to right, #941c1c, #000000);
+
+   
+   
+}
+
+
+
+
+
+
+.filme{
+
+    text-align: center;
+    display: block;
+}
+
+.filme > button{
+    width: 400px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+   background: linear-gradient(to right, #000000, #410b0d);
+    font-size: 20px;
+    color: white;
+    
+}
+
+
+
+
+
+
+a > img{ 
+    display: block;
+
+    margin-right: 100%;
+}
+
+
+
+
+
+
+
+

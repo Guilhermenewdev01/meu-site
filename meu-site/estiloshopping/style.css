@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+   height: 100%;
+
+}
+body{
+    backdrop-filter: blur(10px);
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -5%);
+  
+   
+    
+    
+}
+
+
+
+.caixa{
+    position: relative;
+    color: rgb(255, 255, 255);
+    border-style: groove;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.8em;
+    border-color: rgb(245, 245, 245);
+  
+   background: linear-gradient(to left,rgb(44, 13, 13),rgb(97, 6, 6));
+  
+    
+  
+}
+
+.caixa:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+   
+   
+
+
+
+
+ 
+        
+
